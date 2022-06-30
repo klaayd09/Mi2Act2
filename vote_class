@@ -1,0 +1,15 @@
+package Package_2;
+
+import Package_1.main_vote;
+
+public class vote_class {
+	
+	public vote_class (int age) {
+		if (age < 18) {
+			System.out.println("\nYou are not eligible for voting!");
+		} else {
+			System.out.println("\nYou are eligible for voting!, Have a great Day!");
+		}
+	}
+
+}
